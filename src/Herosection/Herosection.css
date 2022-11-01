@@ -1,18 +1,123 @@
-*{
-    font-family: 'Open Sans';
-}
-
-.subhead {
+/* .subhead {
     height: 150px;
     padding-top: 100px;
     font-size: 15px;
     font-weight: 800;
     letter-spacing: 0px;
+} */
+
+.main-hero {
+    background-image: url("../img/Hero1.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -20px;
+    background-size: 100%;
+    background-position: 0% 70%;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .mainhead {
-    font-size: 35px;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
+    line-height: 10vh;
+    letter-spacing: 0.5vh;
+    font-size: 4vw;
     font-weight: 700;
 }
+
+.handshake {
+    width: 75vh;
+}
+
+.custombg {
+    height: 450px;
+    background-color: #FFDAA5D6;
+}
+
+.headcss {
+    font-weight: 500;
+    letter-spacing: -0.1vh;
+}
+
+.viewservices {
+    background-color: #FF7D33;
+    border: none;
+}
+
+.viewservices:hover {
+    background-color: white;
+    color: #FF7D33;
+    border: 1px solid #FF7D33;
+}
+
+.viewtech {
+    background-color: white;
+    color: black;
+    border: 2px solid #FF7D33;
+}
+
+.viewtech:hover {
+    background-color: #FF7D33;
+    color: white;
+    border: none;
+}
+ 
+
+.btn-grad {
+    background-image: linear-gradient(to right, #1D2671 0%, #C33764  51%, #1D2671  100%);
+    padding: 10px 30px;
+    width: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;         
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.contentblock{
+    border: 1px solid #B4531C;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+
+}
+
+.techbg {
+    height: 200px;
+}
+
+.btn-group button {
+    background-color: transparent;
+    border: none!important;
+    border-bottom: 1px solid black;
+    color: black; /* White text */
+    padding-left: 30px; 
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    font-weight: 600;
+  }
